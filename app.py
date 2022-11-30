@@ -21,7 +21,7 @@ def main():
     else: 
         st.success('The number is odd')
   else: 
-    st.success('The number is not integral and therefore neither even nor odd')
+    st.success('The number is not an integer and therefore neither even nor odd')
   if st.button("Made By"):
       st.text("Harimanjunathan")
       st.text("21f1001836")
