@@ -8,8 +8,8 @@ def welcome():
 def main():
   st.title("OddEven")
   html_temp = """
-  <div style="background-color:tomato;padding:10px">
-  <h2 style="color:white;text-align:center;">Subtraction of 2 numbers using Streamlit</h2>
+  <div style="background-color:chilli;padding:10px">
+  <h2 style="color:white;text-align:center;">Odd or Even Number determination</h2>
   </div>
   """
   st.markdown(html_temp,unsafe_allow_html=True)
