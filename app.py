@@ -14,14 +14,14 @@ def main():
   """
   st.markdown(html_temp,unsafe_allow_html=True)
   num1 = st.number_input("Number 1")
-  if is_integer(num1):  
+  if float(num1).is_integer():  
     result = num1%2
     if result==0:  
         st.success('The number is even')
     else: 
         st.success('The number is odd')
   else: 
-    st.success('The number is neither even nor odd')
+    st.success('The number is not integral and therefore neither even nor odd')
   if st.button("Made By"):
       st.text("Harimanjunathan")
       st.text("21f1001836")
